@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <Flex maxW="1120" m="0 auto" color="white" direction="column">
       <Head>
-      <title>Messier One</title>
+        <title>Messier One</title>
         <meta name="description" content="Messier One, o amigo do Advogado" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Flex
         direction="column"
         w="100%"
@@ -28,13 +28,13 @@ export default function Home() {
             justify="space-between"
           >
             <Text fontSize="xl">
-              Problemas na hora de configurar sua máquina para realizar peticionamento? Na Messier One
-              você tem a solução.
+              Problemas na hora de configurar sua máquina para realizar
+              peticionamento? Na Messier One você tem a solução.
             </Text>
 
             <Text>
-              Realizamos a instalação e configuração completa 
-              de maneira remota para sua comodidade.
+              Realizamos a instalação e configuração completa de maneira remota
+              para sua comodidade.
             </Text>
 
             <Text
@@ -54,9 +54,7 @@ export default function Home() {
             </Text>
           </Flex>
 
-          <Flex w="300px" bg="gray.100" borderRadius="2rem">
-            
-          </Flex>
+          <Flex w="300px" bg="gray.100" borderRadius="2rem"></Flex>
         </Flex>
       </Flex>
 
@@ -129,10 +127,7 @@ export default function Home() {
         justify="center"
         align="center"
       >
-        <Text
-        >
-          Powered by Delta
-        </Text>
+        <Text>Powered by Delta</Text>
       </Flex>
     </Flex>
   );
