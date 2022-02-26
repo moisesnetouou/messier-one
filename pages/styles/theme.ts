@@ -1,6 +1,5 @@
 import { extendTheme } from '@chakra-ui/react';
 
-
 const customTheme = extendTheme({
   fonts: {
     body: 'Sora, system-ui, sans-serif',
@@ -15,7 +14,7 @@ const customTheme = extendTheme({
   styles: {
     global: {
       'html, body': {
-        background: '#050517',
+        background: '#0e0b0b',
       },
     },
   },
