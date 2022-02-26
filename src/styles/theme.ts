@@ -14,7 +14,7 @@ const customTheme = extendTheme({
   styles: {
     global: {
       'html, body': {
-        background: '#0e0b0b',
+        background: '#000000',
       },
     },
   },
