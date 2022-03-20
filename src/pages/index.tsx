@@ -65,7 +65,7 @@ export default function Home() {
 
             <Text
               as="a"
-              href="http://api.whatsapp.com/send?1=pt_BR&phone=5592991146464"
+              href="http://api.whatsapp.com/send?1=pt_BR&phone=5599999999999"
               textAlign="center"
               bg="cyan.400"
               transition="background 0.6s"
@@ -219,7 +219,7 @@ export default function Home() {
         <Stack direction="row" align="center" my={['5', '0', '0', '0']}>
           <Flex
             as="a"
-            href="mailto:sac@messierone.com.br"
+            href="mailto:example@messierone.com.br"
             bg="cyan.400"
             p="2"
             borderRadius="full"
@@ -230,7 +230,7 @@ export default function Home() {
           </Flex>
           <Flex
             as="a"
-            href="http://api.whatsapp.com/send?1=pt_BR&phone=5592991146464"
+            href="http://api.whatsapp.com/send?1=pt_BR&phone=5599999999999"
             bg="cyan.400"
             p="2"
             borderRadius="full"
@@ -241,7 +241,7 @@ export default function Home() {
           </Flex>
           <Flex
             as="a"
-            href="https://www.instagram.com/messierone/"
+            href="https://www.instagram.com/examplemessierone/"
             target="_blank"
             bg="cyan.400"
             p="2"
@@ -256,7 +256,7 @@ export default function Home() {
         <Flex
           align="center"
           as="a"
-          href="http://api.whatsapp.com/send?1=pt_BR&phone=5592991146464"
+          href="http://api.whatsapp.com/send?1=pt_BR&phone=5599999999999"
           bg="cyan.400"
           color="white"
           transition="background 0.6s"
