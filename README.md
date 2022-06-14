@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  Messier One
+</h1>
 
-## Getting Started
+<h1 align="center">
+    <img alt="Preview Desktop" title="Preview Desktop" src="/public/images/readme/messier-one.png" />
+</h1>
 
-First, run the development server:
+## 💼 Projeto
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+O site é para uma empresa ficticia que deseja vender um serviço para advogados, é uma Landing Page que tem apenas o objetivo de informar sobre o produto, o problema que ela soluciona e um meio de contato.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📖 Objetivo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Ele foi criado para entender como funciona o deploy na Vercel e como publicar ele em um dominio real e também para utilizar serviços externos de email.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Utilizei o Registro.br para isso, de inicio, apenas fiz o deploy na Vercel, após isso comprei um dominio na Registro.br, peguei o DNS que a Vercel me oferece após fazer o deploy, e adicionei no DNS do meu dominio no Registro.br, após algumas horas ele estava no ar.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+O Serviço de e-mail, eu utilizei a Umbler, após comprar um pacote, apenas adicionei na Vercel o DNS da Umbler para fazer comunicação com o meu dominio.
 
-## Learn More
+## 💻 Tecnologias
 
-To learn more about Next.js, take a look at the following resources:
+Este projeto foi desenvolvido com as seguintes tecnologias.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [ReactJS](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [Chakra UI](https://chakra-ui.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ☁ Deploy
 
-## Deploy on Vercel
+O Deploy desta aplicação foi realizado na Vercel.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Vercel](https://vercel.com/)
