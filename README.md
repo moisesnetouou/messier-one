@@ -6,6 +6,8 @@
     <img alt="Preview Desktop" title="Preview Desktop" src="/public/images/readme/messier-one.png" />
 </h1>
 
+Caso queira acessar o projeto publicado, [Clique aqui.](https://messier-one.vercel.app/)
+
 ## 💼 Projeto
 
 O site é para uma empresa ficticia que deseja vender um serviço para advogados, é uma Landing Page que tem apenas o objetivo de informar sobre o produto, o problema que ela soluciona e um meio de contato.
@@ -32,3 +34,5 @@ Este projeto foi desenvolvido com as seguintes tecnologias.
 O Deploy desta aplicação foi realizado na Vercel.
 
 - [Vercel](https://vercel.com/)
+
+
