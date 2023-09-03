@@ -15,6 +15,7 @@ export function Footer() {
       align="center"
       justify="space-around"
       direction={{ base: 'column', sm: 'row' }}
+      mt="5rem"
     >
       <HStack align="center">
         <Text>Powered by Delta</Text>
