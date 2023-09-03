@@ -1,4 +1,4 @@
-import { Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Flex, Heading, Img, Text } from '@chakra-ui/react';
 
 export function Hero() {
   return (
@@ -63,7 +63,7 @@ export function Hero() {
           </Text>
         </Flex>
 
-        <Image
+        <Img
           alignSelf="center"
           src="/images/pexel.png"
           alt=""
