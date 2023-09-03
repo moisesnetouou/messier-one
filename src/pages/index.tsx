@@ -12,6 +12,8 @@ import { AiFillInstagram } from 'react-icons/ai';
 import { BsWhatsapp, BsFillTriangleFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 
+import { BoxText } from '@/components/BoxText';
+
 export default function Home() {
   return (
     <Flex maxW="1120" m="0 auto" color="white" direction="column">
@@ -117,65 +119,18 @@ export default function Home() {
             fontSize={['md', 'md', 'lg', 'lg']}
             fontWeight="semibold"
           >
-            <Flex
-              bg="transparent"
-              padding="1.5rem"
-              border="1px solid #eaeaea"
-              borderRadius="10px"
-              w={['100%', '100%', '300px', '400px']}
-              height="120px"
-              align="center"
-              justify="center"
-              textAlign="center"
-            >
-              <Text>
-                Reconhecer seu token independente de qual seja o modelo.
-              </Text>
-            </Flex>
+            <BoxText>
+              Reconhecer seu token independente de qual seja o modelo.
+            </BoxText>
 
-            <Flex
-              bg="transparent"
-              padding="1.5rem"
-              border="1px solid #eaeaea"
-              borderRadius="10px"
-              w={['100%', '100%', '300px', '400px']}
-              height="120px"
-              align="center"
-              justify="center"
-              textAlign="center"
-            >
-              <Text>Acessar aos demais sites jurídicos do Brasil</Text>
-            </Flex>
+            <BoxText>Acessar aos demais sites jurídicos do Brasil</BoxText>
 
-            <Flex
-              bg="transparent"
-              padding="1.5rem"
-              border="1px solid #eaeaea"
-              borderRadius="10px"
-              w={['100%', '100%', '300px', '400px']}
-              height="120px"
-              align="center"
-              justify="center"
-              textAlign="center"
-            >
-              <Text>
-                Realizar peticionamento eletrônico nos sistemas do e-SAJ, PJE,
-                Projudi, e etc.
-              </Text>
-            </Flex>
-            <Flex
-              bg="transparent"
-              padding="1.5rem"
-              border="1px solid #eaeaea"
-              borderRadius="10px"
-              w={['100%', '100%', '300px', '400px']}
-              height="120px"
-              align="center"
-              justify="center"
-              textAlign="center"
-            >
-              <Text>Java na versão correta e configurado</Text>
-            </Flex>
+            <BoxText>
+              Realizar peticionamento eletrônico nos sistemas do e-SAJ, PJE,
+              Projudi, e etc.
+            </BoxText>
+
+            <BoxText>Java na versão correta e configurado</BoxText>
           </SimpleGrid>
 
           <Flex bg="gray.900" p="5" align="center" my="10" borderRadius="10">
