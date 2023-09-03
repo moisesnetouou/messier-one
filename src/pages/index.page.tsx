@@ -1,4 +1,3 @@
-import { Flex } from '@chakra-ui/react';
 import Head from 'next/head';
 
 import { Footer } from './home/Footer';
@@ -7,7 +6,7 @@ import { Services } from './home/Services';
 
 export default function Home() {
   return (
-    <Flex maxW="1120" m="0 auto" color="white" direction="column">
+    <div className="mx-auto max-w-[1120px]">
       <Head>
         <title>Messier One</title>
         <meta name="description" content="Messier One, o amigo do Advogado" />
@@ -19,6 +18,6 @@ export default function Home() {
       <Services />
 
       <Footer />
-    </Flex>
+    </div>
   );
 }
