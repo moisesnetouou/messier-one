@@ -1,18 +1,9 @@
-import {
-  Icon,
-  Flex,
-  Heading,
-  Image,
-  SimpleGrid,
-  Text,
-  Stack,
-} from '@chakra-ui/react';
+import { Flex, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react';
 import Head from 'next/head';
-import { AiFillInstagram } from 'react-icons/ai';
-import { BsWhatsapp, BsFillTriangleFill } from 'react-icons/bs';
-import { MdEmail } from 'react-icons/md';
 
 import { BoxText } from '@/components/BoxText';
+
+import { Footer } from './home/Footer';
 
 export default function Home() {
   return (
@@ -157,71 +148,7 @@ export default function Home() {
         </Flex>
       </Flex>
 
-      <Flex
-        flex="1"
-        padding="2rem 0"
-        borderTop="1px solid #eaeaea"
-        align="center"
-        justify="space-around"
-        direction={['column', 'row', 'row', 'row']}
-      >
-        <Stack direction="row" align="center">
-          <Text>Powered by Delta</Text>
-          <Icon as={BsFillTriangleFill} />
-        </Stack>
-
-        <Stack direction="row" align="center" my={['5', '0', '0', '0']}>
-          <Flex
-            as="a"
-            href="mailto:example@messierone.com.br"
-            bg="cyan.400"
-            p="2"
-            borderRadius="full"
-            transition="background 0.6s"
-            _hover={{ bg: 'cyan.800' }}
-          >
-            <Icon as={MdEmail} fontSize="20" />
-          </Flex>
-          <Flex
-            as="a"
-            href="http://api.whatsapp.com/send?1=pt_BR&phone=5599999999999"
-            bg="cyan.400"
-            p="2"
-            borderRadius="full"
-            transition="background 0.6s"
-            _hover={{ bg: 'cyan.800' }}
-          >
-            <Icon as={BsWhatsapp} fontSize="20" />
-          </Flex>
-          <Flex
-            as="a"
-            href="https://www.instagram.com/examplemessierone/"
-            target="_blank"
-            bg="cyan.400"
-            p="2"
-            borderRadius="full"
-            transition="background 0.6s"
-            _hover={{ bg: 'cyan.800' }}
-          >
-            <Icon as={AiFillInstagram} fontSize="20" />
-          </Flex>
-        </Stack>
-
-        <Flex
-          align="center"
-          as="a"
-          href="http://api.whatsapp.com/send?1=pt_BR&phone=5599999999999"
-          bg="cyan.400"
-          color="white"
-          transition="background 0.6s"
-          _hover={{ bg: 'cyan.800' }}
-          p="3"
-          borderRadius="10"
-          fontWeight="semibold"
-        >
-          <Text>Entre em Contato</Text>
-        </Flex>
-      </Flex>
+      <Footer />
     </Flex>
   );
 }
