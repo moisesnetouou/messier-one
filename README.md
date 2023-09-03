@@ -1,28 +1,33 @@
-<h1 align="center">
-  Messier One
-</h1>
+# Messier One
+
+This app is built with Next.js 12 and Chakra UI.
 
 <h1 align="center">
     <img alt="Preview Desktop" title="Preview Desktop" src="/public/images/readme/messier-one.png" />
 </h1>
 
-Caso queira acessar o projeto publicado, [Clique aqui.](https://messier-one.vercel.app/)
+## ⚠️ Under development
+This application does not have functionality yet and was created only for the purpose of studies.
 
-## 💼 Projeto
+If you want to access the published project, [Click here.](https://messier-one.vercel.app/)
 
-O site é para uma empresa ficticia que deseja vender um serviço para advogados, é uma Landing Page que tem apenas o objetivo de informar sobre o produto, o problema que ela soluciona e um meio de contato.
+## 💼 Project
 
-## 📖 Objetivo
+The site is for a fictitious company that wants to sell a service to lawyers, it is a Landing Page that has the sole purpose of informing about the product, the problem it solves and a means of contact.
 
-Ele foi criado para entender como funciona o deploy na Vercel e como publicar ele em um dominio real e também para utilizar serviços externos de email.
+## 📖 Goal
 
-Utilizei o Registro.br para isso, de inicio, apenas fiz o deploy na Vercel, após isso comprei um dominio na Registro.br, peguei o DNS que a Vercel me oferece após fazer o deploy, e adicionei no DNS do meu dominio no Registro.br, após algumas horas ele estava no ar.
+It was created to understand how Vercel deploy works and how to publish it in a real domain and also to use external email services.
 
-O Serviço de e-mail, eu utilizei a Umbler, após comprar um pacote, apenas adicionei na Vercel o DNS da Umbler para fazer comunicação com o meu dominio.
+I used Registro.br for this, at first, I just deployed it at Vercel, after that I bought a domain at Registro.br, took the DNS that Vercel offers me after deploying it, and added it to my domain's DNS in the Registry .br, after a few hours it was online.
 
-## 💻 Tecnologias
+The e-mail service, I used Umbler, after buying a package, I just added Umbler's DNS to Vercel to communicate with my domain.
 
-Este projeto foi desenvolvido com as seguintes tecnologias.
+Note: Currently I no longer use the domain, only Vercel's.
+
+## 💻 Technologies
+
+This project was developed with the following technologies.
 
 - [ReactJS](https://reactjs.org/)
 - [NextJS](https://nextjs.org/)
@@ -31,7 +36,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias.
 
 ## ☁ Deploy
 
-O Deploy desta aplicação foi realizado na Vercel.
+This application was deployed at Vercel.
 
 - [Vercel](https://vercel.com/)
 
