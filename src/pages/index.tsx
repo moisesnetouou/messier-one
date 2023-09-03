@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import {
   Icon,
   Flex,
@@ -8,10 +7,10 @@ import {
   Text,
   Stack,
 } from '@chakra-ui/react';
+import Head from 'next/head';
+import { AiFillInstagram } from 'react-icons/ai';
 import { BsWhatsapp, BsFillTriangleFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
-
-import { AiFillInstagram } from 'react-icons/ai';
 
 export default function Home() {
   return (
