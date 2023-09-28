@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-  body, input, textarea, button {
-    font-family: Inter, sans-serif
+  body {
+    background: #000000;
+    color: #FFFFFF
+  }
+
+  body, input, textarea, button {   
+    font-family: Sora, sans-serif
   }
 }
