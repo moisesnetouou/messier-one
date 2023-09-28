@@ -1,24 +1,17 @@
-import { Icon, Link } from '@chakra-ui/react';
-import { IconType } from 'react-icons/lib';
+import { ComponentType } from 'react';
 
 interface RoundedLinkProps {
   href: string;
-  icon: IconType;
+  icon: ComponentType<any>;
 }
 
-export function RoundedLink({ href, icon }: RoundedLinkProps) {
+export function RoundedLink({ href, icon: Icon }: RoundedLinkProps) {
   return (
-    <Link
+    <a
       href={href}
-      bg="cyan.400"
-      p="2"
-      borderRadius="full"
-      transition="background 0.6s"
-      _hover={{ bg: 'cyan.800' }}
-      display="flex"
-      isExternal
+      className="flex rounded-full bg-cyan-400 p-2 transition-colors duration-500 hover:bg-cyan-800"
     >
-      <Icon as={icon} fontSize="20" />
-    </Link>
+      <Icon className="text-[1.25rem]" />
+    </a>
   );
 }

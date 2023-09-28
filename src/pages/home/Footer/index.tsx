@@ -1,4 +1,3 @@
-import { Flex, HStack, Icon, Link, Text } from '@chakra-ui/react';
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsFillTriangleFill, BsWhatsapp } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
@@ -7,22 +6,13 @@ import { RoundedLink } from './RoundedLink';
 
 export function Footer() {
   return (
-    <Flex
-      as="footer"
-      flex="1"
-      padding="2rem 0"
-      borderTop="1px solid #eaeaea"
-      align="center"
-      justify="space-around"
-      direction={{ base: 'column', sm: 'row' }}
-      mt="5rem"
-    >
-      <HStack align="center">
-        <Text>Powered by Delta</Text>
-        <Icon as={BsFillTriangleFill} />
-      </HStack>
+    <footer className="mt-20 flex flex-1 items-center justify-around border-t border-t-[#eaeaea] py-8 xs:flex-col">
+      <div className="flex items-center gap-2">
+        <span>Powered by Delta</span>
+        <BsFillTriangleFill />
+      </div>
 
-      <HStack align="center" my={{ base: '5', sm: '0' }}>
+      <nav className="flex gap-2 xs:my-5">
         <RoundedLink href="mailto:example@messierone.com.br" icon={MdEmail} />
 
         <RoundedLink
@@ -34,22 +24,14 @@ export function Footer() {
           href="https://www.instagram.com/examplemessierone/"
           icon={AiFillInstagram}
         />
-      </HStack>
+      </nav>
 
-      <Link
-        display="flex"
-        alignItems="center"
+      <a
         href="http://api.whatsapp.com/send?1=pt_BR&phone=5599999999999"
-        bg="cyan.400"
-        color="white"
-        transition="background 0.6s"
-        _hover={{ bg: 'cyan.800' }}
-        p="3"
-        rounded="10"
-        fontWeight="semibold"
+        className="flex items-center rounded-[0.625rem] bg-cyan-400 p-3 font-semibold text-white transition-all duration-500 hover:bg-cyan-800"
       >
         Entre em Contato
-      </Link>
-    </Flex>
+      </a>
+    </footer>
   );
 }
