@@ -1,28 +1,18 @@
-import { SimpleGrid } from '@chakra-ui/react';
-
 import { BoxText } from './BoxText';
 
 export function Benefits() {
   return (
-    <SimpleGrid
-      columns={[1, 1, 2, 2]}
-      spacing={[5, 10, 20, 20]}
-      mt={['2rem', '5rem', '5rem']}
-      fontSize={['md', 'md', 'lg', 'lg']}
-      fontWeight="semibold"
-    >
-      <BoxText>
-        Reconhecer seu token independente de qual seja o modelo.
-      </BoxText>
+    <div className="mt-20 grid grid-cols-2 gap-20 text-lg font-semibold md:grid-cols-1 md:gap-10 md:text-base md:sm:gap-5 xs:mt-8">
+      <BoxText text="Reconhecer seu token independente de qual seja o modelo." />
 
-      <BoxText>Acessar aos demais sites jurídicos do Brasil</BoxText>
+      <BoxText text="Acessar aos demais sites jurídicos do Brasil" />
 
-      <BoxText>
-        Realizar peticionamento eletrônico nos sistemas do e-SAJ, PJE, Projudi,
-        e etc.
-      </BoxText>
+      <BoxText
+        text="Realizar peticionamento eletrônico nos sistemas do e-SAJ, PJE, Projudi,
+        e etc."
+      />
 
-      <BoxText>Java na versão correta e configurado</BoxText>
-    </SimpleGrid>
+      <BoxText text="Java na versão correta e configurado" />
+    </div>
   );
 }

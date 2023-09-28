@@ -1,22 +1,21 @@
-import { Flex, Image, Text } from '@chakra-ui/react';
+import Image from 'next/image';
 
 export function SupportedPlatforms() {
   return (
-    <Flex bg="gray.900" p="5" align="center" my="10" borderRadius="10">
-      <Text
-        fontSize={['sm', 'lg', 'lg']}
-        color="white"
-        p="2"
-        borderRadius="10"
-        fontWeight="semibold"
-      >
+    <div className=" my-10 flex items-center gap-2 rounded-[0.625rem] bg-gray-900 p-5">
+      <span className="rounded-[10px] p-2 text-lg font-semibold xs:text-sm">
         Serviços disponíveis para:
-      </Text>
+      </span>
 
-      <Flex direction="column" justify="center" align="center" ml="2">
-        <Image src="/images/windows.png" alt="" width="3rem" height="3rem" />
-        <Text color="blue.200">Windows</Text>
-      </Flex>
-    </Flex>
+      <div className="flex flex-col items-center justify-center">
+        <Image
+          src="/images/windows.png"
+          alt="windows blue logo"
+          width={48}
+          height={48}
+        />
+        <span className="text-blue-200">Windows</span>
+      </div>
+    </div>
   );
 }

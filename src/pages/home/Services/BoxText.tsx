@@ -1,24 +1,11 @@
-import { Flex, Text } from '@chakra-ui/react';
-import { ReactNode } from 'react';
-
 interface BoxTextProps {
-  children: ReactNode;
+  text: string;
 }
 
-export function BoxText({ children }: BoxTextProps) {
+export function BoxText({ text }: BoxTextProps) {
   return (
-    <Flex
-      bg="transparent"
-      padding="1.5rem"
-      border="1px solid #eaeaea"
-      rounded="0.625rem"
-      w={{ base: '100%', md: '18.75rem', lg: '25rem' }}
-      height="7.5rem"
-      align="center"
-      justify="center"
-      textAlign="center"
-    >
-      <Text>{children}</Text>
-    </Flex>
+    <div className="flex h-[7.5rem] w-[25rem] items-center justify-center rounded-[0.625rem] border border-[#eaeaea] p-6 text-center xl:lg:w-full">
+      <span>{text}</span>
+    </div>
   );
 }

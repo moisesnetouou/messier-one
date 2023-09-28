@@ -1,31 +1,23 @@
-import { Flex, Heading, Text } from '@chakra-ui/react';
-
 import { Benefits } from './Benefits';
 import { SupportedPlatforms } from './SupportedPlatforms';
 
 export function Services() {
   return (
-    <Flex
-      direction="column"
-      w="100%"
-      my={['8rem', '8rem', '5rem', '5rem']}
-      h={['100%', '100%', '100%', '100vh', '100vh']}
-      justify="center"
-    >
-      <Flex direction="column" align="center" px="1.5rem">
-        <Heading fontSize={['2xl', '2xl', '3xl', '3xl']}>
+    <div className="my-20 flex h-screen w-full flex-col justify-center md:my-32 md:h-full">
+      <div className="flex flex-col items-center px-6">
+        <h2 className="text-3xl font-bold md:text-2xl">
           Nosso serviço tem como foco praticidade e comodidade
-        </Heading>
+        </h2>
 
-        <Text mt="1rem" fontSize={['md', 'md', 'lg', 'lg']}>
+        <p className="mt-4 text-lg md:text-base">
           Sem precisar sair da sua casa, tudo feito de maneira remota, nosso
           serviço lhe garante que sua máquina vai ter a possibilidade de:
-        </Text>
+        </p>
 
         <Benefits />
 
         <SupportedPlatforms />
-      </Flex>
-    </Flex>
+      </div>
+    </div>
   );
 }
